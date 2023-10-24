@@ -3,8 +3,12 @@
  * and scoped locally.
  */
 
+
 .heroBanner {
+  background-image: url("/static/img/jumbotron.svg");
+  /* background-color: var(--ifm-color-primary-darkest); */
   padding: 4rem 0;
+  height: 450px;
   text-align: center;
   position: relative;
   overflow: hidden;
