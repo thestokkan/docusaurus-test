@@ -11,6 +11,7 @@ aliases:
 
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
+import DescriptionAlerts from "/src/components/DescriptionAlerts/DescriptionAlerts.tsx";
 
 ## Usage
 
@@ -41,68 +42,77 @@ Alerts are commonly used to display important information to users that should b
 You can add a component in [Altinn Studio Designer](/app/getting-started/ui-editor/) by dragging it from the left-side panel to the middle page area.
 Selecting the component brings up its configuration panel on the right-hand side.
 
-### Settings in Altinn Studio Designer
-
-:::caution
-
-We are currently updating Altinn Studio with more configuration options!
-The documentation is continuously updated, but more settings may be available than described here, and some settings may be in beta.
-
-:::
-
-import alertImageUrl from "./Alert-settings-panel.png";
-<img src={alertImageUrl} alt="Alert settings panel" />;
-
 <Tabs>
   <TabItem value="asd" label="Altinn Studio Designer" default>
 
-  Property settings available in Altinn Studio Designer.
-  
-  <br/>
+Property settings available in Altinn Studio Designer.
 
-  ![Image](./Alert-settings-panel.png)
+<br />
 
-  <ul>
-    <li>
-      <strong>Komponent-ID</strong> (<code>id</code>): Automatically generated
-      component ID (editable).
-    </li>
-    <li>
-      <strong>Ledetekst</strong> (<code>textResourceBindings.title</code>): Alert
-      heading.
-    </li>
-    <li>
-      <strong>Tekstinnhold</strong> (<code>textResourceBindings.body</code>):
-      Alert content.
-    </li>
-    <li>
-      <strong>Alvorlighetsgrad</strong> (<code>severity</code>): Severity level.
-      Influences the alert's styling (colors and icon).
-    </li>
-  </ul>
+![Image](./Alert-settings-panel.png)
+
+<ul>
+  <li>
+    <strong>Komponent-ID</strong> (<code>id</code>): Automatically generated
+    component ID (editable).
+  </li>
+  <li>
+    <strong>Ledetekst</strong> (<code>textResourceBindings.title</code>): Alert
+    heading.
+  </li>
+  <li>
+    <strong>Tekstinnhold</strong> (<code>textResourceBindings.body</code>):
+    Alert content.
+  </li>
+  <li>
+    <strong>Alvorlighetsgrad</strong> (<code>severity</code>): Severity level.
+    Influences the alert's styling (colors and icon).
+  </li>
+</ul>
 
   </TabItem>
   <TabItem value="code" label="Code">
 
-  ```json title="App/ui/layouts/{page}.json"
-  {
-    "data": {
-      "layout": [
-        // highlight-start
-        {
-          "id": "alert-id",
-          "type": "Alert",
-          "severity": "info",
-          "textResourceBindings": {
-            "title": "",
-            "body": ""
-          }
+```json title="App/ui/layouts/{page}.json"
+{
+  "data": {
+    "layout": [
+      // highlight-start
+      {
+        "id": "alert-id",
+        "type": "Alert",
+        "severity": "info",
+        "textResourceBindings": {
+          "title": "",
+          "body": ""
         }
-        //highlight-end
-      ]
-    }
+      }
+      //highlight-end
+    ]
   }
-  ```
-
+}
+```
   </TabItem>
 </Tabs>
+
+### Alert severity
+
+< DescriptionAlerts />
+
+### Try it out!
+
+To change alert severity, you have to select the current severity keyword and paste in one of the following:  
+`error`, `warning`, `info`, `success`.
+
+You can edit the title and content text as normal.
+
+```jsx live
+function alert() {
+  return (
+    <Alert severity="info">
+        <AlertTitle><strong>Vedrørende navneendring</strong></AlertTitle>
+        Ved å bekrefte navneendring bekrefter du at du ønsker å endre navnet ditt.
+      </Alert>
+  )
+}
+```

@@ -26,7 +26,7 @@ const config = {
     defaultLocale: "en",
     locales: ["en", "nb"],
   },
-
+  themes: ['@docusaurus/theme-live-codeblock'],
   presets: [
     [
       "classic",

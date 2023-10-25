@@ -78,7 +78,7 @@ By default, `allow-same-origin` is enabled. Some of the other restrictions can b
 
 If you want to allow opening links in a new tab, you can use the following configuration:
 
-```json
+```json title="App/ui/layouts/{page}.json"
 {
   "id": "unique-component-id",
   "type": "IFrame",
