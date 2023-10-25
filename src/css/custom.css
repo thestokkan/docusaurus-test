@@ -13,6 +13,8 @@
   --ifm-color-primary-light: #3381c8;
   --ifm-color-primary-lighter: #66a1d6;
   --ifm-color-primary-lightest: #80b1dd;
+  --ifm-color-primary-lightest2: #B3D0EA;
+  --ifm-color-primary-lightest3: #E6EFF8;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-navbar-background-color: var(--ifm-color-primary-darkest);
@@ -49,3 +51,9 @@
   color: #fafafa;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distributes space between the cards evenly */
+  gap: 16px; /* Gap between cards */
+}
