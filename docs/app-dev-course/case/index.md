@@ -61,7 +61,7 @@ The following is desirable to be similar in the application:
  - Text size
  - Formatting of text
 
-[Sketch of information page](/app/app-dev-course/modul2/infoside_tilflyttere.pdf)
+[Sketch of information page](./)
 
 !["Sogndal coats of arms"](kommune-logo.png "A picture of the coats of arms of Sogndal that may be used in the application." )
 
@@ -116,7 +116,7 @@ Based on the answer, the user will be sent to either _Track 1_ or _Track 2_.
 We want the user to be presented with a different set of options for the industry choice
 based on which sector they are in.
 
-- Private sector: [Standard list of industries](../industry.json)
+- Private sector: [Standard list of industries](./)
 - Public sector: `State` and `Municipality`
 
 

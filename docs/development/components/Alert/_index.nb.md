@@ -62,7 +62,7 @@ Legg til følgende seksjoner dersom de er relevante:
 -->
 ### Relatert
 
-- [`Panel`](../panel/)
+- [`Panel`](//)
 
 
 ## Egenskaper
@@ -87,7 +87,7 @@ Hvis ingen argument gis, henter shortkoden komponentnavnet fra 'schemaname' i fr
 
 ### Legg til komponent
 
-Du kan legge til en komponent i [Altinn Studio Designer](/nb/app/getting-started/ui-editor/) ved å dra den fra venstre sidepanel til midten av siden.
+Du kan legge til en komponent i [Altinn Studio Designer](./) ved å dra den fra venstre sidepanel til midten av siden.
 Når du velger komponenten, vises et panel med innstillinger for den på høyre side.
 
 ### Innstillinger i Altinn Studio Designer
@@ -142,7 +142,7 @@ App/ui/layouts/{page}.json
 
 ### Overskrift og tekstinnhold
 
-Overskrift (ledetekst) og tekstinnhold legges til ved å opprette ny eller velge en eksisterende [tekstressurs](/nb/app/development/ux/texts/#legge-til-og-endre-tekster-i-en-app).
+Overskrift (./).
 
 {{<content-version-selector classes="border-box">}}
 {{<content-version-container version-label="Altinn Studio Designer">}}

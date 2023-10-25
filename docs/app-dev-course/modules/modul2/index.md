@@ -8,7 +8,7 @@ weight: 20
 
 In this module, you will further develop the application you created in [Module 1](../modul1), including, among other things, a new page, dynamic tracks, and prefilling.
 
-You can do parts of Module 2 in [Altinn Studio Designer](/app/getting-started/ui-editor/) (Designer), but some tasks need to be performed using [local development](/app/getting-started/local-dev).
+You can do parts of Module 2 in [Altinn Studio Designer](./).
 
 **Themes covered in this module:**
 
@@ -26,7 +26,7 @@ For forms with a significant amount of information collected or provided, dividi
 Let's take a closer look at how to create a new page in the application
 that appears _before_ the user reaches the first data collection page created in Module 1.
 
-Creating and managing multiple pages can be done in [Altinn Studio Designer](/app/getting-started/ui-editor/) (left panel).
+Creating and managing multiple pages can be done in [Altinn Studio Designer](./) (left panel).
 For manual page setup, refer to 'Useful Documentation' further down the page.
 
 ### Requirements of the municipality
@@ -44,22 +44,22 @@ You can use the following image of the Sogndal Municipality Coat of Arms in the 
 
 ### Tasks
 1. Add a new page. Give it an appropriate name and position it before the form page you created in Module 1.
-2. [Add an image](/app/development/ux/components/image) of the Sogndal Municipality Coat of Arms.
+2. [Add an image](./) of the Sogndal Municipality Coat of Arms.
 3. Add text according to the [draft](infoside_tilflyttere.pdf).
 
 ### Useful Documentation
 
-- [Text formatting](/app/development/ux/texts/#formatting-of-texts)
-- [Add images to an application](/app/development/ux/components/image/)
-- [Side-by-side components using grid](/app/development/ux/styling/#components-placed-side-by-side-grid)
-- [File structure for multiple pages](/app/development/ux/pages/)
-- [Managing the order of multiple pages](/app/development/ux/pages/navigation/#order)
+- [Text formatting](./)
+- [Add images to an application](./)
+- [Side-by-side components using grid](./)
+- [File structure for multiple pages](./)
+- [Managing the order of multiple pages](./)
 
 <!-- ### Knowledge check -->
 
 <!-- {{% expandsmall id="m2t1q1" header="Which file in the application repository do you need to edit if you want to manually change the page order of existing pages?" %}}
 You can configure the page order in `App/ui/Settings.json` by modifying the list described under `pages.order`.
-Refer to [Managing the order of multiple pages](/app/development/ux/pages/navigation/#order).
+Refer to [Managing the order of multiple pages](./).
 {{% /expandsmall %}}
 
 {{% expandsmall id="m2t1q2" header="If you want to give a page a different name but do not have Altinn Studio available, which files do you need to update with the new file name?" %}}
@@ -111,9 +111,9 @@ The user should be directed to one of the following tracks based on their respon
 3. Add logic to activate _track 1_ or _track 2_ based on the user's answer.
 
 ### Useful documentation
-- [Dynamic expressions](/app/development/logic/expressions)
-- [How to hide an entire page](/app/development/logic/expressions#viseskjule-hele-sider)
-- [Text formatting](/app/development/ux/texts/#formatting-of-texts)
+- [Dynamic expressions](./)
+- [How to hide an entire page](./)
+- [Text formatting](./)
 
 <!-- ### Knowledge check -->
 <!-- {{% expandsmall id="m2t2q1" header="If a user fills out a form on a page later hidden by a user selection, what happens to that data?" %}}
@@ -124,7 +124,7 @@ If you have logic in an application where users can proceed to submission for mu
 ### Prefilling of personal information
 Altinn provides the advantage of having readily accessible metadata for individuals and businesses. With prefilling, we can retrieve user data and populate fields seamlessly, reducing the need for manual data entry, especially for standard details like names, addresses, and emails.
 
-You can directly integrate data from Altinn's [prefill sources](/app/development/data/prefill/config/#available-prefill-values) into the app by mapping the data to specific fields in the data model, automating field population during form creation. You can also integrate custom code-based solutions for prefilling.
+You can directly integrate data from Altinn's [prefill sources](./) into the app by mapping the data to specific fields in the data model, automating field population during form creation. You can also integrate custom code-based solutions for prefilling.
 
 This task focuses on the first data collection page, aiming to streamline the user experience by prefilling their details.
 
@@ -142,9 +142,9 @@ This task focuses on the first data collection page, aiming to streamline the us
 - It should be possible to change prefilled email and phone number
 
 ### Tasks
-1. Create a [prefill file](/app/development/data/prefill/config/#setup-of-prefill-in-the-application-repository).
-2. Configure prefilling for values available through Altinn's [prefill sources](/app/development/data/prefill/config/#available-prefill-values) (all but age).
-3. Create [custom prefilling](/app/development/data/prefill/custom) for age based on the personal identification number (see code assistance below).
+1. Create a [prefill file](./).
+2. Configure prefilling for values available through Altinn's [prefill sources](./) (all but age).
+3. Create [custom prefilling](./) for age based on the personal identification number (see code assistance below).
 4. Configure settings for fields that should not be editable by the user.
 
 
@@ -232,10 +232,10 @@ private static int CalculateAge(string sosialSecNumber)
 *Remember to push your local changes to make them available in Altinn Studio.*
 
 ### Useful documentation
-- [Prefilling from national registers and user profile](/app/development/data/prefill/config/#prefill-from-national-register-and-user-profile)
-- [Available sources and values for prefilling](/app/development/data/prefill/config/#available-prefill-values)
-- [Custom prefilling](/app/development/data/prefill/custom)
-- [Description of the InstanceOwner object](/api/models/instance/#instanceowner) - This is where you can find the national identity number.
+- [Prefilling from national registers and user profile](./)
+- [Available sources and values for prefilling](./)
+- [Custom prefilling](./)
+- [Description of the InstanceOwner object](./) - This is where you can find the national identity number.
   In the code, the properties are referred to with an uppercase first letter, not lowercase, as in this overview.
 
 <!-- ### Knowledge check -->

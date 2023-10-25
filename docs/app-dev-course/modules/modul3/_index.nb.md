@@ -8,7 +8,7 @@ weight: 20
 
 :::info
 
- Denne modulen krever at du er medlem av en organisasjon som har et etablert testmiljø for Altinn Apps. Dersom dette ikke er tilfellet kan du gå videre til [neste modul](../modul4/).
+ Denne modulen krever at du er medlem av en organisasjon som har et etablert testmiljø for Altinn Apps. Dersom dette ikke er tilfellet kan du gå videre til [neste modul](//).
 
 :::
 
@@ -43,8 +43,8 @@ Alle endringer knyttet til skalering og ressursbruk gjøres i filen `App/deploym
 {{% /notice %}}
 
 ### Nyttig dokumentasjon
-- [Sette egendefinerte regler for skalering](/nb/app/development/configuration/deployment/#skalering)
-- [Sette egendefinerte grenser for ressursbruk](/nb/app/development/configuration/deployment/#konfigurasjon-av-ressurser)
+- [Sette egendefinerte regler for skalering](./)
+- [Sette egendefinerte grenser for ressursbruk](./)
 {{% /expandlarge %}}
 
 {{% expandlarge id="bygge-applikasjon" header="Bygge applikasjon" %}}
@@ -59,7 +59,7 @@ som kan publiseres til ett eller flere miljø.
 og legg til en beskrivende kommentar om hva versjonen inneholder.
 
 ### Nyttig dokumentasjon
-- [Bygge app i Altinn Studio](/nb/app/testing/deploy/#bygge-app)
+- [Bygge app i Altinn Studio](./)
 
 {{% /expandlarge %}}
 
@@ -71,7 +71,7 @@ før man produksjonssetter den.
 
 {{% notice info %}}
 For å kunne publisere en applikasjon til TT02 må organisasjonen som eier den ha et app-cluster i testmiljøet.
-I tillegg må utvikleren som skal gjennomføre publiseringen inneha [rollen Deploy-TT02](/nb/app/guides/access-management/studio/#deploy-tt02).
+I tillegg må utvikleren som skal gjennomføre publiseringen inneha [rollen Deploy-TT02](./).
 {{% /notice %}}
 
 ### Oppgaver
@@ -80,8 +80,8 @@ I tillegg må utvikleren som skal gjennomføre publiseringen inneha [rollen Depl
 
 ### Nyttig dokumentasjon
 
-- [Publisere app til testmiljø](/nb/app/testing/deploy/#deploy-av-app-til-testmiljø)
-- [Tilgangsstyring for organisasjon i Altinn Studio](/nb/app/guides/access-management/studio/#tilgangsstyring-for-organisasjonen)
+- [Publisere app til testmiljø](./)
+- [Tilgangsstyring for organisasjon i Altinn Studio](./)
 
 ### Forståelsessjekk
 {{% expandsmall id="m3t1q1" header="Er det mulig å ha to versjoner av en applikasjon i TT02 samtidig?" %}}
@@ -175,5 +175,5 @@ deployment:
 <br/><br/>
 
 {{% center %}}
-[<< Forrige modul](../modul2/)      [Neste modul >>](../modul4/)
+[<< Forrige modul](../modul2/)      [Neste modul >>](//)
 {{% /center %}} -->

@@ -8,7 +8,7 @@ weight: 20
 
 :::info
 
- This module requires that you are part of an [organization](/app/getting-started/create-user/#join-an-organization) with an enabled test environment for Altinn Apps. If this is not the case, move on to the [next module](../modul4/).
+ This module requires that you are part of an [organization](./) with an enabled test environment for Altinn Apps. If this is not the case, move on to the [next module](//).
 
 :::
 
@@ -48,8 +48,8 @@ All changes related to scaling and resource use are made in the `deployment/valu
 
 
 #### Useful documentation
-- [Set custom rules for scaling](/app/development/configuration/deployment/#scaling)
-- [Set custom limits for resource use](/app/development/configuration/deployment/#resources-configuration)
+- [Set custom rules for scaling](./)
+- [Set custom limits for resource use](./)
 
 ### Build application
 
@@ -61,7 +61,7 @@ Create a new build for the application with version number `0.0.1`
 and add a descriptive comment of what the version includes.
 
 #### Useful documentation
-- [Build app in Altinn Studio](/app/testing/deploy/#bygge-app)
+- [Build app in Altinn Studio](./)
 
 ### Deploy application
 
@@ -72,7 +72,7 @@ In addition to this, TT02 is often used to verify that an application works as e
 
 To be able to deploy an application to TT02,
 the organization that owns the application has to have an app cluster in the test environment.
-In addition to this, the developer deploying the application needs the [role Deploy-TT02](/app/guides/access-management/studio/#deploy-tt02)
+In addition to this, the developer deploying the application needs the [role Deploy-TT02](./)
 for the organization in Altinn Studio.
 
 :::
@@ -80,8 +80,8 @@ for the organization in Altinn Studio.
 **Deploy your application to TT02.**
 
 #### Useful documentation
-- [Deploy app to test environment](/app/testing/deploy/#deploy-av-app-til-testmiljø)
-- [Access control for the organization in Altinn Studio](/app/guides/access-management/studio/#tilgangsstyring-for-organisasjonen)
+- [Deploy app to test environment](./)
+- [Access control for the organization in Altinn Studio](./)
 
 #### Knowledge check
 - Is it possible to have two versions of one application in TT02 at the same time?

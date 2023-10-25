@@ -11,7 +11,7 @@ During application development, you will need to work both in Altinn Studio and 
 
 ## How to clone the application to a local development environment
 
-1. Find the application you want to work with locally in the [Dashboard](/app/getting-started/navigation/dashboard) in Altinn Studio.
+1. Find the application you want to work with locally in the [Dashboard](./) in Altinn Studio.
 2. Navigate to the repository by clicking the _Repository_ button.
     ![Repository button highlighted in an image](find-app-in-dashboard.png)
 3. Copy the repository link (the blue square) either manually or by clicking the button marked with a red circle.
@@ -88,12 +88,12 @@ When working locally, it can be useful to preview the changes you make. *LocalTe
 
 {{% notice info %}}
 **NOTE**
-To run the app in LocalTest, the application must have an associated [data model](/app/development/data/data-modeling/).
+To run the app in LocalTest, the application must have an associated [data model](./).
 {{% /notice %}}
 
 1. **Download and start LocalTest** by following the steps [described on GitHub](https://github.com/Altinn/app-localtest/blob/master/README.md) (includes starting the app, which is also explained below).
 2. **Run your application within LocalTest**: Open a new terminal window and navigate to the subfolder *App* in your application (`<app-name>/App`). Start the app with the command `dotnet run` and wait for confirmation in the terminal.
-3. **Preview and test application**: Go to [http://local.altinn.cloud](http://local.altinn.cloud) and log in with a [test user](/app/testing/local/testusers/).
+3. **Preview and test application**: Go to [http://local.altinn.cloud](./).
 
 ### Preview changes in real-time
 

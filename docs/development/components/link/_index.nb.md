@@ -40,7 +40,7 @@ Link-komponenten kan konfigureres med følgende egenskaper:
 ## Dynamisk URL
 
 I noen tilfeller kan det være nødvendig å ha mer informasjon i query parametere som for eksempel instans id slik at du kan sende brukeren tilbake til instansen fra din eksterne side.
-Dette kan gjøres ved å bruke et [uttrykk](/nb/app/development/logic/expressions) i `target`-egenskapen. Se følgende eksempel:
+Dette kan gjøres ved å bruke et [uttrykk](./) i `target`-egenskapen. Se følgende eksempel:
 
 ```json
 {

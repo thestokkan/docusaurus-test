@@ -59,7 +59,7 @@ Følgende er det ønskelig at reflekteres i applikasjonen:
  - Tekststørrelser
  - Formatering av tekst
 
-[Skisse på informasjonsside](/app/app-dev-course/modul2/infoside_tilflyttere.pdf)
+[Skisse på informasjonsside](./)
 
 !["Sogndal kommunevåpen"](kommune-logo.png "Et bilde av Sogndals kommunevåpen som kan benyttes i applikasjonen")
 
@@ -104,7 +104,7 @@ Basert på svaret skal brukeren sendes videre til _Spor 1_ eller _Spor 2_.
 Vi ønsker at brukerne skal ha et ulikt sett med svaralternativer for bransjevalget
 basert på hvilken sektor de har krysset av for.
 
-- Privat sektor: [Standardlisten med bransjer](../industry.json)
+- Privat sektor: [Standardlisten med bransjer](./)
 - Offentlig sektor: `Stat` og `Kommune`
 
 ### Skreddersydd tilbud for IT-kompetanse

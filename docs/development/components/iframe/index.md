@@ -66,7 +66,7 @@ Now, if we visit our app, we should be able to see the IFrame component renderin
 ## Advanced implementation of the IFrame component
 
 Sometimes it's not enough to use static HTML and CSS directly written in the text resource file. There are situations where you need to fetch HTML dynamically based on certain criteria or perform calculations.
-To fetch HTML dynamically, you can make use of [ProcessDataRead](/app/development/configuration/stateless/#populating-data). You can learn more about [data processing here](/app/development/logic/dataprocessing).
+To fetch HTML dynamically, you can make use of [ProcessDataRead](./).
 
 ProcessDataRead and Data processing provide the capability to preprocess data before it is sent back to the frontend for rendering.
 

@@ -8,7 +8,7 @@ weight: 20
 
 I denne modulen skal du videreutvikle applikasjonen du laget i [Modul 1](../modul1) med blant annet en ny side, dynamisk skjuling av sider, sporvalg og forhåndsutfylling.
 
-Deler av Modul 2 kan gjøres i [Altinn Studio Designer](/nb/app/getting-started/ui-editor/) (Designer), men noe må utføres med [lokal utvikling](/nb/app/getting-started/local-dev).
+Deler av Modul 2 kan gjøres i [Altinn Studio Designer](./).
 
 **Temaer som dekkes i denne modulen:**
 
@@ -28,7 +28,7 @@ kan det forbedre brukeropplevelsen dersom man deler applikasjonen opp i flere si
 La oss se nærmere på hvordan man kan opprette en ny side i applikasjonen
 som vises _før_ brukeren kommer til første datainnsamlingsside som ble laget i Modul 1.
 
-Opprettelse og administrasjon av flere sider kan gjøres i [Altinn Studio Designer](/nb/app/getting-started/ui-editor/) (venstre panel).
+Opprettelse og administrasjon av flere sider kan gjøres i [Altinn Studio Designer](./) (venstre panel).
  For manuelt oppsett av sider, se 'Nyttig dokumentasjon' lenger ned på siden.
 
 ### Krav fra kommunen
@@ -47,22 +47,22 @@ Du kan bruke følgende bilde av Sogndals kommunevåpen i applikasjonen:
 ### Oppgaver
 
 1. Legg til en ny side. Gi den et passende navn og plasser den foran skjemasiden du opprettet i Modul 1.
-2. [Legg til bilde](/nb/app/development/ux/components/image/#legg-til-komponent) av Sogndals kommunevåpen.
+2. [Legg til bilde](./) av Sogndals kommunevåpen.
 3. Legg til tekst i henhold til [skisse](infoside_tilflyttere.pdf).
 
 ### Nyttig dokumentasjon
 
-- [Formatering av tekst](/nb/app/development/ux/texts/#formatering-av-tekster)
-- [Hvordan legge til bilder i en applikasjon](/nb/app/development/ux/components/images/)
-- [Sidestilte komponenter](/nb/app/development/ux/styling/#sidestilte-komponenter-grid)
-- [Filoppsett ved flere sider](/nb/app/development/ux/pages/)
-- [Administrere rekkefølge på flere sider](/nb/app/development/ux/pages/navigation/#rekkefølge)
+- [Formatering av tekst](./)
+- [Hvordan legge til bilder i en applikasjon](./)
+- [Sidestilte komponenter](./)
+- [Filoppsett ved flere sider](./)
+- [Administrere rekkefølge på flere sider](./)
 
 ### Forståelsessjekk
 
 {{% expandsmall id="m2t1q1" header="Hvilken fil i applikasjonsrepoet må redigeres dersom du ønsker å manuelt endre rekkefølgen på eksisterende sider?" %}}
 Du kan konfigurere siderekkefølgen i `App/ui/Settings.json` ved å endre listen beskrevet under `pages.order`.
-Se [Administrere rekkefølge på flere sider](/nb/app/development/ux/pages/navigation/#rekkefølge).
+Se [Administrere rekkefølge på flere sider](./).
 {{% /expandsmall %}}
 
 {{% expandsmall id="m2t1q2" header="Hvis du ønsker å gi en side et annet navn, men ikke har Altinn Studio tilgjengelig, hvilke filer må oppdateres med det nye filnavnet?" %}}
@@ -115,9 +115,9 @@ Brukeren skal sendes til ett av følgende spor basert på svaret deres:
 3. Legg til logikk som aktiverer _spor 1_ eller _spor 2_ basert på brukerens svar.
 
 ### Nyttig dokumentasjon
-- [Dynamiske uttrykk](/nb/app/development/logic/expressions)
-- [Hvordan skjule hele sider](/nb/app/development/logic/expressions/#viseskjule-hele-sider)
-- [Formatering av tekst](/nb/app/development/ux/texts/#formatering-av-tekster)
+- [Dynamiske uttrykk](./)
+- [Hvordan skjule hele sider](./)
+- [Formatering av tekst](./)
 
 ### Forståelsessjekk
 
@@ -132,7 +132,7 @@ Dersom du har logikk i en applikasjon der man kan fortsette til innsending for f
 
 Altinn gir fordelen av å ha lett tilgjengelig metadata for enkeltpersoner og bedrifter. Ved hjelp av forhåndsutfylling kan vi hente brukerdata og fylle ut felt sømløst, noe som reduserer behovet for manuell inntasting av data, spesielt for standardopplysninger som navn, adresser og e-postadresser.
 
-Du kan integrere data fra Altinns [forhåndsutfyllingskilder](/nb/app/development/data/prefill/config/#tilgjengelige-prefill-verdier) direkte i appen ved å tilordne dataene til spesifikke felt i datamodellen. Dette automatiserer utfylling av felt under opprettelse av skjema. Du kan også integrere egendefinerte løsninger for forhåndsutfylling.
+Du kan integrere data fra Altinns [forhåndsutfyllingskilder](./) direkte i appen ved å tilordne dataene til spesifikke felt i datamodellen. Dette automatiserer utfylling av felt under opprettelse av skjema. Du kan også integrere egendefinerte løsninger for forhåndsutfylling.
 
 Denne oppgaven fokuserer på den første siden for datainnsamling og har som mål å effektivisere brukeropplevelsen ved å forhåndsutfylle brukerens personalia.
 
@@ -151,9 +151,9 @@ Denne oppgaven fokuserer på den første siden for datainnsamling og har som må
 
 ### Oppgaver
 
-1. Opprett en [fil for forhåndsutfylling](/nb/app/development/data/prefill/config/#oppsett-av-prefill-i-applikasjons-repository).
-2. Konfigurer forhåndsutfylling for verdier tilgjengelig i Altinns [forhåndsutfyllingskilder](/nb/app/development/data/prefill/config/#tilgjengelige-prefill-verdier) (alle unntatt alder).
-3. Opprett [egendefinert forhåndsutfylling](/nb/app/development/data/prefill/custom) for alder basert på personnummer (se kodehjelp under).
+1. Opprett en [fil for forhåndsutfylling](./).
+2. Konfigurer forhåndsutfylling for verdier tilgjengelig i Altinns [forhåndsutfyllingskilder](./) (alle unntatt alder).
+3. Opprett [egendefinert forhåndsutfylling](./) for alder basert på personnummer (se kodehjelp under).
 4. Konfigurer innstillinger for felter som ikke skal kunne endres av brukeren.
 
 {{% expandsmall id="kodehjelp" header="Kodehjelp: Beregning av alder fra personnummer" %}}
@@ -236,10 +236,10 @@ private static int CalculateAge(string sosialSecNumber)
 *Husk å pushe de lokale endringene dine så de blir tilgjengelige i Altinn Studio.*
 
 ### Nyttig dokumentasjon
-- [Forhåndsutfylling fra nasjonale registre og brukerprofil](/nb/app/development/data/prefill/config/#prefill-fra-nasjonale-register-og-brukerprofil)
-- [Tilgjengelige kilder og verdier for forhåndsutfylling](/nb/app/development/data/prefill/config/#tilgjengelige-prefill-verdier)
-- [Egendefinert forhåndsutfylling](/nb/app/development/data/prefill/custom)
-- [Beskrivelse av InstanceOwner-objektet](/nb/api/models/instance/#instanceowner) - Her finner du personnummeret.
+- [Forhåndsutfylling fra nasjonale registre og brukerprofil](./)
+- [Tilgjengelige kilder og verdier for forhåndsutfylling](./)
+- [Egendefinert forhåndsutfylling](./)
+- [Beskrivelse av InstanceOwner-objektet](/nb/) - Her finner du personnummeret.
   Vær oppmerksom på at egenskapene refereres til med store forbokstaver i koden, ikke med små, som i denne oversikten.
 
 ### Forståelsessjekk

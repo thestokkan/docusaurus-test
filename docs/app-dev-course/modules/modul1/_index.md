@@ -8,8 +8,8 @@ weight: 20
 
 I denne modulen skal du opprette selve applikasjonen, legge til datamodell og sette opp et enkelt skjema basert på kravene fra Sogndal kommune.
 
-Du må utføre de to første oppgavene, opprette applikasjon og legge til datamodell, i Altinn Studios grafiske brukergrensesnitt, [Altinn Studio Designer](/nb/app/getting-started/ui-editor) (Designer).
- Dersom du skal utvikle appen lokalt kan du følge instruksjonene for [klargjøre for lokal utvikling og testing](/nb/app/getting-started/local-dev) etter at du har gjort disse oppgavene.
+Du må utføre de to første oppgavene, opprette applikasjon og legge til datamodell, i Altinn Studios grafiske brukergrensesnitt, [Altinn Studio Designer](./) (Designer).
+ Dersom du skal utvikle appen lokalt kan du følge instruksjonene for [klargjøre for lokal utvikling og testing](./) etter at du har gjort disse oppgavene.
 
 <!-- {{% notice info %}}
 **MERK**  
@@ -28,7 +28,7 @@ Du kan utføre alle stegene i denne modulen i Designer.
 
 {{% expandlarge id="opprette-ny-applikasjon" header="Opprette ny applikasjon" %}}
 
-Applikasjoner opprettes fra [Altinn Studio Dashboard](/nb/app/getting-started/navigation/dashboard/).
+Applikasjoner opprettes fra [Altinn Studio Dashboard](./).
 
 ### Krav fra kommunen
 
@@ -36,18 +36,18 @@ Applikasjonen må ha et beskrivende navn (ID) som gjør det enkelt å finne den 
 applikasjoner Sogndal kommune har i Altinn Studio.
 
 {{% notice info %}}
-Dersom du skal teste appen i et [testmiljø](/nb/app/testing/deploy/) (beskrevet i [Modul 3](/nb/app/app-dev-course/modul3/)) må du velge en organisasjon som eier.
- Du må ha [tilgang til organisasjonen](/nb/app/getting-started/create-user/#bli-del-av-en-organisasjon) og organisasjonen må ha tilgang til et testmiljø.
+Dersom du skal teste appen i et [testmiljø](./)) må du velge en organisasjon som eier.
+ Du må ha [tilgang til organisasjonen](./) og organisasjonen må ha tilgang til et testmiljø.
  {{% /notice %}}
 
 ### Oppgaver
 
-1. [Opprett applikasjon i Altinn Studio](/nb/app/getting-started/create-app/)
+1. [Opprett applikasjon i Altinn Studio](./)
 
 ### Nyttig dokumentasjon
 
-- [Navigere Altinn Studio](/nb/app/getting-started/navigation)
-- [Altinn Studio Dashboard](/nb/app/getting-started/navigation/dashboard/)
+- [Navigere Altinn Studio](./)
+- [Altinn Studio Dashboard](./)
 
 {{% /expandlarge %}}
 
@@ -55,10 +55,10 @@ Dersom du skal teste appen i et [testmiljø](/nb/app/testing/deploy/) (beskrevet
 
 Datamodellen definerer type of format for data som kan sendes inn via en app.
 
-Med Altinn Studios [verktøy for datamodellering](/nb/app/development/data/data-modeling/)
- kan du legge til en datamodell ved å [laste opp en _xsd_-fil](/nb/app/development/data/data-modeling/#laste-opp-og-vise-datamodell)
-  eller [lage en ny datamodell](/nb/app/development/data/data-modeling/#lage-ny-datamodell) fra bunnen av.
- Du kan også ta utgangspunkt i en eksisterende datamodell og redigere den i et tekstredigeringsprogram eller [direkte i Altinn Studio](/nb/app/development/data/data-modeling/#redigere-datamodell).
+Med Altinn Studios [verktøy for datamodellering](./)
+ kan du legge til en datamodell ved å [laste opp en _xsd_-fil](./)
+  eller [lage en ny datamodell](./) fra bunnen av.
+ Du kan også ta utgangspunkt i en eksisterende datamodell og redigere den i et tekstredigeringsprogram eller [direkte i Altinn Studio](./).
   I denne oppgaven skal du kun laste opp en ferdig datamodell.
 
 ### Krav fra kommunen
@@ -70,20 +70,20 @@ Sogndal kommune har opprettet en [datamodell](datamodel.xsd) som representerer t
 1. [Last ned xsd-filen](datamodel.xsd). Hvis filen åpnes i nettleseren kan du opprette en ny tekstfil og kopiere over innholdet. Lagre filen som `datamodel.xsd`.
  Alternativt kan du kopiere URLen til filen og kjøre kommandoen `curl <fil-URL> > datamodel.xsd` fra kommandolinjen. Åpne filen i et tekstredigeringsprogram
    og ta en nærmere titt på innholdet.
-2. [Last opp datamodellen i Altinn Studio](/nb/app/development/data/data-modeling/#laste-opp-og-vise-datamodell)
+2. [Last opp datamodellen i Altinn Studio](./)
 3. Klikk "Last opp dine endringer" og følg instruksjonene for å lagre endringene.
-4. Åpne repository til appen fra [Altinn Studio Dashboard](/nb/app/getting-started/navigation/dashboard/) og ta en nærmere titt på filene i mappen `App/models`.
+4. Åpne repository til appen fra [Altinn Studio Dashboard](./) og ta en nærmere titt på filene i mappen `App/models`.
 
 {{% notice info %}}
-Hvis du skal gjøre hele eller deler av utviklingen lokalt kan du nå [klargjøre for lokal utvikling og testing](/nb/app/getting-started/local-dev).
+Hvis du skal gjøre hele eller deler av utviklingen lokalt kan du nå [klargjøre for lokal utvikling og testing](./).
 {{% /notice %}}
 
 ### Nyttig dokumentasjon
 
-- [Altinn Studio Datamodellering](/app/development/data/data-modeling/)
+- [Altinn Studio Datamodellering](./)
 - [Beskrivelse av indikatorer i XSD](https://www.w3schools.com/xml/schema_complex_indicators.asp)
 - [Installere curl for Windows](https://developer.zendesk.com/documentation/api-basics/getting-started/installing-and-using-curl/#windows)
-- [Altinn Studio Repository](/nb/app/getting-started/navigation/repos/)
+- [Altinn Studio Repository](./)
 
 ### Forståelsessjekk
 
@@ -126,8 +126,8 @@ De nevnte filene er alle generert ut ifra xsd-beskrivelsen av datamodellen. De b
 
 {{% expandlarge id="redigere-tekster" header="Opprette og redigere tekster" %}}
 
-[Tekster i Altinn Studio](/nb/app/development/ux/texts/) lagres i en egne språkfiler (også kalt tekstressurser) og kan knyttes til skjema-komponenter via en tekstnøkkel.
-Tekstene kan [opprettes og redigeres i Altinn Studio Designer](/nb/app/development/ux/texts/#altinn-studio-designer) eller [direkte i filen](/nb/app/development/ux/texts/#legge-til-og-endre-tekster-i-repository).
+[Tekster i Altinn Studio](./) lagres i en egne språkfiler (også kalt tekstressurser) og kan knyttes til skjema-komponenter via en tekstnøkkel.
+Tekstene kan [opprettes og redigeres i Altinn Studio Designer](./).
 
 {{% notice warning %}}
 **MERK**: Visningsnavn for applikasjonen må endres både i `App/config/applicationMetadata.json` og i språkfilene.
@@ -139,18 +139,18 @@ overskrifter (labels).
 
 ### Oppgaver
 
-1. [Opprett tekstressurser](/nb/app/development/ux/texts/#legge-til-og-endre-tekster-i-en-app) for komponentene til det første skjemaet. Tekstene skal beskrive hva som skal fylles inn og vil vises over feltene. Ta en titt på neste oppgave for å se hvilke komponenter du trenger tekst til.
-2. [Endre visningsnavn for applikasjonen](/nb/app/development/ux/texts/#endre-applikasjonstittel). Det er viktig at applikasjonens visningsnavn klinger godt og er beskrivende for tjenesten.
-3. [Legg til oversettelse(r) for tekstene](/nb/app/development/ux/texts/#legge-til-og-endre-tekster-i-en-app). Applikasjonen må være tilgjengelig både på bokmål, nynorsk og engelsk. I en første versjon er det tilstrekkelig at kun ett av disse språkene støttes.
+1. [Opprett tekstressurser](./) for komponentene til det første skjemaet. Tekstene skal beskrive hva som skal fylles inn og vil vises over feltene. Ta en titt på neste oppgave for å se hvilke komponenter du trenger tekst til.
+2. [Endre visningsnavn for applikasjonen](./). Det er viktig at applikasjonens visningsnavn klinger godt og er beskrivende for tjenesten.
+3. [Legg til oversettelse(./). Applikasjonen må være tilgjengelig både på bokmål, nynorsk og engelsk. I en første versjon er det tilstrekkelig at kun ett av disse språkene støttes.
 
 Husk å laste opp endringer når du jobber i Designer så de reflekteres i repoet.
 I neste steg skal du opprette komponenter og knytte tekstene du har opprettet til disse.
 
 ### Nyttig dokumentasjon
 
-- [Tekster i Altinn Studio](/nb/app/development/ux/texts/)
-- [Redigere applikasjonstekster](/nb/app/development/ux/texts/#legge-til-og-endre-tekster-i-en-app)
-- [Formatering av tekster](/nb/app/development/ux/texts/#formatering-av-tekster)
+- [Tekster i Altinn Studio](./)
+- [Redigere applikasjonstekster](./)
+- [Formatering av tekster](./)
 - [ISO 639-1 standard](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
 ### Forståelsessjekk
@@ -187,7 +187,7 @@ Hvis nevnte tekstnøkkel ikke finnes i tekstressursfilen, vil tekstnøkkelen vis
 
 {{% expandlarge id="legge-til-komponenter" header="Legge til komponenter" %}}
 
-Du kan konfigurere komponentene i en applikasjon i det grafiske brukergrensesnittet [Altinn Studio Designer](/nb/app/getting-started/ui-editor/).
+Du kan konfigurere komponentene i en applikasjon i det grafiske brukergrensesnittet [Altinn Studio Designer](./).
  Alternativt kan du gjøre det manuelt ved å redigere filen `<page>.json` som beskriver strukturen til en skjemaside. Du finner filen i `App/ui/layouts`.
 
 ### Krav fra kommunen
@@ -217,9 +217,9 @@ Husk å laste opp endringer når du jobber i Designer så de reflekteres i repoe
 
 ### Nyttig dokumentasjon
 
-- [Hvordan bygge et skjema med UI editor i Altinn Studio](/nb/app/getting-started/ui-editor/)
-- [Tilgjengelige komponenter i Altinn Studio](/altinn-studio/designer/build-app/ui-designer/components/)
-- [Retningslinjer for bruk av komponenter](/nb/app/guides/design/guidelines/components/)
+- [Hvordan bygge et skjema med UI editor i Altinn Studio](./)
+- [Tilgjengelige komponenter i Altinn Studio](./)
+- [Retningslinjer for bruk av komponenter](./)
 
 ### Forståelsessjekk
 
