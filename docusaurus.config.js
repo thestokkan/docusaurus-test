@@ -58,13 +58,13 @@ const config = {
         },
         items: [
           {
-            label: "Getting started",
+            label: "Get started",
             type: "docSidebar",
             sidebarId: "gettingStartedSidebar",
             position: "left",
           },
           {
-            label: "Intro course",
+            label: "Intro Course",
             type: "docSidebar",
             sidebarId: "introCourseSidebar",
             position: "left",
