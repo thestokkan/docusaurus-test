@@ -1,0 +1,22 @@
+{
+  "link.item.label.Accessibility": {
+    "message": "Accessibility",
+    "description": "The label of footer link with label=Accessibility linking to /"
+  },
+  "link.item.label.Backlog": {
+    "message": "Backlog",
+    "description": "The label of footer link with label=Backlog linking to /"
+  },
+  "link.item.label.Slack": {
+    "message": "Slack",
+    "description": "The label of footer link with label=Slack linking to /"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to /"
+  },
+  "link.item.label.About Altinn": {
+    "message": "About Altinn",
+    "description": "The label of footer link with label=About Altinn linking to /"
+  }
+}

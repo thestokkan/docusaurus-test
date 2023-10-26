@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
@@ -31,7 +32,11 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Documentation for Altinn Studio 3">
+      description={
+        <Translate description="Description for Altinn Studio 3">
+          Documentation for Altinn Studio 3
+        </Translate>
+      }>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

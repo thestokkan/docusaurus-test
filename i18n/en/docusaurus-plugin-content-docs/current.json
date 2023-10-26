@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.introCourseSidebar.category.Modules": {
+    "message": "Modules",
+    "description": "The label for category Modules in sidebar introCourseSidebar"
+  },
+  "sidebar.introCourseSidebar.category.Modules.link.generated-index.description": {
+    "message": "Course modules",
+    "description": "The generated-index page description for category Modules in sidebar introCourseSidebar"
+  },
+  "sidebar.developmentSidebar.category.Components": {
+    "message": "Components",
+    "description": "The label for category Components in sidebar developmentSidebar"
+  },
+  "sidebar.gettingStartedSidebar.category.Navigate Altinn Studio": {
+    "message": "Navigate Altinn Studio",
+    "description": "The label for category Navigate Altinn Studio in sidebar gettingStartedSidebar"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "Altinn logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Get started": {
+    "message": "Get started",
+    "description": "Navbar item with label Get started"
+  },
+  "item.label.Intro Course": {
+    "message": "Intro Course",
+    "description": "Navbar item with label Intro Course"
+  },
+  "item.label.Development": {
+    "message": "Development",
+    "description": "Navbar item with label Development"
+  },
+  "item.label.API": {
+    "message": "API",
+    "description": "Navbar item with label API"
+  },
+  "item.label.Community": {
+    "message": "Community",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Technology": {
+    "message": "Technology",
+    "description": "Navbar item with label Technology"
+  }
+}
