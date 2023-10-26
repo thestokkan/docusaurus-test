@@ -61,9 +61,11 @@ Alternatively, copy the file URL and run the command `curl <file-URL> > datamode
 3. Click "Last opp dine endringer" and follow the instructions to save the changes.
 4. Open the app's repository from the [Altinn Studio Dashboard](./) and look at the files in the `App/models` folder.
 
-{{% notice info %}}
+:::info
+
 If you intend to carry out all or parts of the development locally, now is the time to [prepare for local development and testing](./).
-{{% /notice %}}
+
+:::
 
 #### Useful Documentation
 

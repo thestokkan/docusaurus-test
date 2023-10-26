@@ -86,10 +86,12 @@ If you're using Altinn Studio for development, changes need to be synchronized w
 
 When working locally, it can be useful to preview the changes you make. *LocalTest* is a program that spins up a local mock-up of the Altinn Platform. This allows you to test and verify local changes without having to synchronize with Altinn Studio.
 
-{{% notice info %}}
+:::info
+
 **NOTE**
 To run the app in LocalTest, the application must have an associated [data model](./).
-{{% /notice %}}
+
+:::
 
 1. **Download and start LocalTest** by following the steps [described on GitHub](https://github.com/Altinn/app-localtest/blob/master/README.md) (includes starting the app, which is also explained below).
 2. **Run your application within LocalTest**: Open a new terminal window and navigate to the subfolder *App* in your application (`<app-name>/App`). Start the app with the command `dotnet run` and wait for confirmation in the terminal.

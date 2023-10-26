@@ -279,9 +279,11 @@ An option is to perform data validations on the server side to verify that the d
 {{% /expandsmall %}}
 
 {{% expandsmall id="m2t3q3" header="Some Norwegian residents do not have a national identification number but are assigned a D-number. How can you adjust the code to accommodate the user entering a national identification number or a D-number?" %}}
-{{% notice info %}}
+:::info
+
 A [D-number](https://jusleksikon.no/wiki/F%C3%B8dselsnummer#D-nummer) is eleven digits, like a regular national identification number, and consists of a modified six-digit birth date followed by a five-digit personal number. The birth date is modified by _adding 4 to the first digit_. For example, the modified birth date would be 410180 for a person born on January 1, 1980, and be 710180 for someone born on January 31, 1980.
-{{% /notice %}}
+
+:::
 
 The following function converts an arbitrary national identification number or D-number into a date string of the format `dd-MM-yy`:
 

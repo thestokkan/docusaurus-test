@@ -34,4 +34,3 @@ Gjør deretter endringene du ønsker, og lagre dem ved å klikke på hake-ikonet
 MERK: UI-editoren og kompoentene er under utvikling. Det vil derfor være perioder der ikke alle egenskaper kan settes i UI-editor.
 {{% /notice%}}
 
-{{<children />}}

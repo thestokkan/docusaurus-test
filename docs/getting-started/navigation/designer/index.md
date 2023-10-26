@@ -34,5 +34,3 @@ I **venstremenyen** kan du navigere innad i området.
 - _Språk_
   - Tekster
 - Deploy
-
-{{<children />}}
