@@ -4,45 +4,45 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
+    title: 'Intro Course',
+    link: "/docs/app-dev-course",
+    Svg: require('@site/static/img/forsideillustrasjon_skrive.svg').default,
+    description: (
+      <>
+        Not sure how to get started? The Intro Course will take you through the creation of an application step by step.
+      </>
+    ),
+  },
+  {
     title: 'Development',
+    link: "/docs/development",
     Svg: require('@site/static/img/forsideillustrasjon_utvikling.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Altinn Studio is our new tool for developing digital services, aka apps. These can be anything from simple forms to very advanced applications.
       </>
     ),
   },
   {
     title: 'Operation and maintenance',
+    link: "./",
     Svg: require('@site/static/img/api.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Intro Course',
-    Svg: require('@site/static/img/forsideillustrasjon_skrive.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Maintain you application in production.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, link, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <a href={link}><Svg className={styles.featureSvg} role="img" /></a>
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <a href={link}><h3>{title}</h3></a>
         <p>{description}</p>
       </div>
     </div>
