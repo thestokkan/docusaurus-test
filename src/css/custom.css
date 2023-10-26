@@ -29,7 +29,7 @@
   --ifm-color-primary: #1a72c1;
   --ifm-color-primary-dark: #0062ba;
   --ifm-color-primary-darker: #004e95;
-  --ifm-color-primary-darkest: #00315D;
+  --ifm-color-primary-darkest: #022F51;
   --ifm-color-primary-light: #3381c8;
   --ifm-color-primary-lighter: #66a1d6;
   --ifm-color-primary-lightest: #80b1dd;
@@ -56,4 +56,14 @@
   flex-wrap: wrap;
   justify-content: space-between; /* Distributes space between the cards evenly */
   gap: 16px; /* Gap between cards */
+}
+
+.lightToggleIcon_pyhR,
+.darkToggleIcon_wfgR {
+  color: #fafafa;
+}
+
+.hero__title,
+.hero__subtitle {
+  color: #fafafa;
 }

@@ -18,6 +18,19 @@
     min-width: calc(33.33% - 16px);
 }
 
+[data-theme='dark'] {
+  .card {
+    background-color: var(--ifm-color-primary-darkest);
+    border-color: var(--ifm-color-primary-darkest);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+
+  .card:hover {
+    transform: scale(1.02); /* Slightly enlarge card on hover */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+}
+
 
 .card::after {
   content: '➔'; /* Right-pointing arrow character */
