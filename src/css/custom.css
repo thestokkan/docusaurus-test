@@ -67,3 +67,13 @@
 .hero__subtitle {
   color: #fafafa;
 }
+
+ul {
+  font-size: larger;
+  color: var(--ifm-color-primary-darkest);
+}
+
+ul ul {
+  font-size: medium;
+  color: black;
+}
